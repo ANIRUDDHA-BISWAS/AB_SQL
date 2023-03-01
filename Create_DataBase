@@ -1,0 +1,76 @@
+CREATE DATABASE ab_data;
+
+CREATE TABLE table_1 (
+            column_01 varchar(25),
+            column_02 varchar(25),
+            column_03 varchar(25),
+            column_04 varchar(25),
+            column_05 varchar(25)
+            );
+            
+INSERT INTO table_1
+(column_01, column_02, column_03, column_04, column_05) 
+VALUES 	
+("A01", "B01", "C01", "D01", "E01"),
+("A02", "B02", "C02", "D02", "E02"),
+("A03", "B03", "C03", "D03", "E03"),
+("A04", "B04", "C04", "D04", "E04"),
+("A05", "B05", "C05", "D05", "E05");
+
+
+
+CREATE TABLE table_2 (
+            column_01 varchar(25),
+            column_02 varchar(25),
+            column_03 varchar(25),
+            column_04 varchar(25),
+            column_05 varchar(25)
+            );
+            
+INSERT INTO table_2
+(column_01, column_02, column_03, column_04, column_05) 
+VALUES 	
+("A", "B", "C", "D", "E"),
+("AA", "BB", "CC", "DD", "EE"),
+("AAA", "BBB", "CCC", "DDD", "EEE"),
+("AAAA", "BBBB", "CCCC", "DDDD", "EEEE"),
+("AAAAA", "BBBBB", "CCCCC", "DDDDD", "EEEEE");
+
+
+CREATE TABLE table_3 (
+            column_01 INT,
+            column_02 INT,
+            column_03 INT,
+            column_04 INT,
+            column_05 INT
+            );
+            
+INSERT INTO table_3
+(column_01, column_02, column_03, column_04, column_05) 
+VALUES 	
+(1, 2, 3, 4, 5),
+(11, 22, 33, 44, 55),
+(111, 222, 333, 444, 555),
+(1111, 2222, 3333, 4444, 5555),
+(11111, 22222, 33333, 44444, 55555);
+
+
+CREATE TABLE table_4 (
+            column_01 varchar(25),
+            column_02 varchar(25),
+            column_03 varchar(25),
+            column_04 varchar(25),
+            column_05 varchar(25)
+            );
+            
+INSERT INTO table_4
+(column_01, column_02, column_03, column_04, column_05) 
+VALUES 	
+("A1", "B1", "C1", "D1", "E1"),
+(101, 102, 103, 104, 105),
+("A003", NULL, "C003", NULL, "E003"),
+(201, 202, NULL, 204, NULL),
+("Z5", "Z5", "Z5", "Z5", "Z5");
+
+
+
